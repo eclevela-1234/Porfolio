@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #283044;
+    --secondary-color: #78a1bb;
+    --tertiary-color: #ebf5ee;
+    --quaternary-color: #bfa89e;
+    --quinary-color: #8b786d
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.hero {
+    background-image: url('../images/Abstract_blue_background7.jpg');
+}
