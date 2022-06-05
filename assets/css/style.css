@@ -27,14 +27,14 @@ header {
     align-items: center;
     text-shadow: var(--primary-color) 0 0 10px;
     flex-wrap: wrap;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background-image: url("../images/Abstract_blue_background7.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-  z-index: 9999;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("../images/Abstract_blue_background7.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 header h1 {
@@ -73,17 +73,43 @@ header ul li a {
 
 .hero {
     background-image: url('../images/Abstract_blue_background7.jpg');
-    display: flex;
+
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
+    height: 268px;
+}
+
+.hero h2 {
+    text-align: right;
+    top: 215px;
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px;
+    padding: 0 60px 0 0;
+    border-bottom: var(--secondary-color) solid 3px;
 }
 .profile-pic {
     width: 250px;
-    margin: 20px;
+    margin: 13px;
     box-shadow: 0 0 20px;
+    position: fixed;
+    z-index: 100;
+}
+
+main {
+    margin-left: 275px;
 }
 .preview-imgs {
     display: flex;
     flex-wrap: wrap;
+}
+section {
+    border-left: var(--quaternary-color) solid 3px;
+    padding: 0 15px;
+    margin: 15px 0;
+
 }
