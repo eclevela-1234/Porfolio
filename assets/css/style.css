@@ -77,12 +77,12 @@ header ul li a {
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
-    height: 268px;
+    height: 148px;
 }
 
 .hero h2 {
     text-align: right;
-    top: 215px;
+    top: 95px;
     position: relative;
     font-style: italic;
     font-weight: bold;
@@ -102,6 +102,7 @@ header ul li a {
 
 main {
     margin-left: 275px;
+    margin-right: 275px;
 }
 .preview-imgs {
     display: flex;
@@ -109,7 +110,19 @@ main {
 }
 section {
     border-left: var(--quaternary-color) solid 3px;
+    border-right: var(--quaternary-color) solid 3px;
     padding: 0 15px;
     margin: 15px 0;
+}
+section h2 {
+    color: var(--primary-color);
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 
+section p {
+    color: var(--primary-color);
+    font-size: 17px;
+    line-height: 1.3;
 }
