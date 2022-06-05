@@ -4,14 +4,74 @@
     --tertiary-color: #ebf5ee;
     --quaternary-color: #bfa89e;
     --quinary-color: #8b786d
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
+}
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--tertiary-color);
+    background-color: var(--quinary-color);
+    align-items: center;
+    text-shadow: var(--primary-color) 0 0 10px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 44px;
+    padding: 5px 10px;
+
+}
+
+header nav {
+    /* margin: 7px 0; */
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+header nav ul li {
+    /* background-color: var(--secondary-color);
+    border: solid 1px var(--primary-color);
+    border-radius: 10px; */
+
+}
+
+header ul li a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    color: var(--tertiary-color);
+}
+
 .hero {
     background-image: url('../images/Abstract_blue_background7.jpg');
+}
+.profile-pic {
+    width: 250px;
+    border: var(--primary-color) solid 3px;
+    margin: 20px;
+    box-shadow: 0 0 20px;
+}
+.preview-imgs {
+    display: flex;
+    flex-wrap: wrap;
 }
