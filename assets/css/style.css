@@ -50,14 +50,17 @@ header nav ul {
     list-style: none;
 
 }
-
+a {
+    text-decoration: none;      
+    color: var(--tertiary-color);  
+}
 header ul li a {
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none;
+
     padding: 10px;
     margin: 0 15px;
-    color: var(--tertiary-color);
+
 }
 
 .hero {
@@ -82,8 +85,8 @@ header ul li a {
     border-bottom: var(--secondary-color) solid 3px;
 }
 .profile-pic {
-    width: 250px;
-    margin: 13px;
+    width: 13vw;
+    margin: 1vw;
     box-shadow: 0 0 20px;
     position: fixed;
     z-index: 100;
@@ -117,8 +120,8 @@ footer h2 {
 
 
 main {
-    margin-left: 275px;
-    margin-right: 75px;
+    margin-left: 15vw;
+    margin-right: 5vw;
 }
 /* .work-imgs {
     display: flex;
@@ -145,29 +148,41 @@ section p {
     top: 5px
 }
 
-.first {
-
-    box-shadow: 0 0 20px;
-    margin: 2.5vw;
-    align-items: center;
-}
-.second {
-
-    box-shadow: 0 0 20px;
-    margin: 2.5vw;
-    align-items: center;
-}
 img {
-    width: 100%;
-
-
+    width:100%;
+    
 }
+
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 article {
     flex: 1;
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 .5vw;
     margin: 1.5vw;
     align-items: center;
+
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SNALLER */
+
+@media screen and (max-width: 980px) {
+   
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .hero h2 {
+        top: 0;
+    }
+    .profile-pic {
+        position:;
+        width: 275px;
+        z-index: 0;
+
+    }
+    
 }
