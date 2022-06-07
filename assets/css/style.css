@@ -131,7 +131,7 @@ main {
 section {
     border-left: var(--quaternary-color) solid 3px;
     border-right: var(--quaternary-color) solid 3px;
-    padding: 70px 15px;
+    padding: 70px 15px 20px 15px;
     margin: 15px 0;
 }
 section h2 {
@@ -176,13 +176,29 @@ article {
     }
     
     .hero h2 {
-        top: 0;
+        top: 50px;
+        border: none;
     }
     .profile-pic {
-        position:;
-        width: 275px;
-        z-index: 0;
+        display: inline;
+        position: relative;
+        width: 230px;
+        top: -90px;
+        z-index: 0101;
 
     }
-    
+    main {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    section {
+    padding: 45px 15px 20px 15px;        
+    }
+
+    article {
+        flex: 0 1 100%;
+        box-shadow: 0 0 1vw;
+        margin: 1.5vw;
+        align-items: center;
+    }
 }
