@@ -118,11 +118,12 @@ footer h2 {
 
 main {
     margin-left: 275px;
-    margin-right: 275px;
+    margin-right: 75px;
 }
 .preview-imgs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 section {
     border-left: var(--quaternary-color) solid 3px;
@@ -144,4 +145,15 @@ section p {
     top: 5px
 }
 
+.preview-imgs article {
+    box-shadow: 0 0 20px;
+    margin: 2.5vw;
+    align-items: center;
+}
+img {
+    width: 100%;
 
+}
+.first {
+    width: 100%;
+}
