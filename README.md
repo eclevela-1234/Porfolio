@@ -3,7 +3,7 @@ Professional showcase for my projects to date
 
 ## Link
 
-[Link to site]()
+https://eclevela-1234.github.io/Porfolio/
 
 ## Steps
 * Build file structure and Sketch Wire frame (insert picture below) 6/2/22
