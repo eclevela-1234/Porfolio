@@ -100,6 +100,7 @@ header a:hover {
     margin: 1vw;
     box-shadow: 0 0 20px;
     position: fixed;
+    top: 65px;
     z-index: 100;
     border-radius: 15px;
 }
@@ -229,6 +230,7 @@ address {
     .hero h2 {
         top: 50px;
         border: none;
+
     }
 
     .profile-pic {
@@ -252,7 +254,7 @@ address {
         flex: 0 1 100%;
 
         margin: 1.5vw;
-        opacity: 1;
+
 
     }
 }
@@ -260,6 +262,10 @@ address {
 @media screen and (max-width: 768px) {
     header {
         position: static;
+    }
+
+    .hero h2 {
+        padding: 0;
     }
 
     .profile-pic {
@@ -275,6 +281,7 @@ address {
     }
 
     header ul li {
+        width: 100%;
         margin: 10px 100px 10px 0px;
         justify-content: flex-start;
     }
@@ -295,9 +302,10 @@ address {
         padding: 0;
     }
 
-    .profile-pic {
+    .hero div {
         position: absolute;
         bottom: 60px;
+        right: 20px
     }
 
 }
