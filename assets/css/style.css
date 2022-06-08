@@ -200,8 +200,13 @@ article:hover {
 
 }
 
-h3 {
+article h3 {
     border-bottom: var(--quinary-color) 1px solid;
+}
+
+.contact h3
+address {
+    margin: 1vw ;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SNALLER */
