@@ -218,7 +218,7 @@ article h3 {
     font-size: 18px;
     font-style: none;
     font-weight: 600;
-    padding: 1vw;
+    padding: 2vw;
     border: var(--quinary-color) solid 1px;
     border-radius: 15px;
     box-shadow: 0 0 1vw;
@@ -351,5 +351,10 @@ article h3 {
     .social img {
         width: 50vw;
         margin: 50px 0 0 0;
+    }
+
+    section h2 {
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
