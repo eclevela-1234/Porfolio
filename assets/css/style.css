@@ -1,3 +1,5 @@
+/* Global styling and custom property declaration */
+
 :root {
     --primary-color: #283044;
     --secondary-color: #78a1bb;
@@ -17,6 +19,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Header and Nav */
 
 header {
     display: flex;
@@ -73,9 +77,10 @@ header a:hover {
 
 }
 
+/* Hero Styles - This is where I slowly learned about position and display by fighting with my profile image*/
+
 .hero {
     background-image: url('../images/Abstract_blue_background7.jpg');
-
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -127,7 +132,7 @@ footer h2 {
     text-align: center;
 }
 
-/* Section Styles here */
+/* Outer Section Styles here */
 
 
 main {
@@ -159,19 +164,7 @@ section p {
     top: 5px
 }
 
-article img {
-    width: 100%;
-    height: 600px;
-    object-fit: none;
-    border-radius: 15px;
-
-
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
+/* Work section styles */
 
 article {
     flex: 1;
@@ -184,6 +177,18 @@ article {
     border-radius: 15px;
 }
 
+article img {
+    width: 100%;
+    height: 600px;
+    object-fit: none;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .caption {
     position: absolute;
     padding: 25px 75px 25px 25px;
@@ -193,20 +198,19 @@ article {
     bottom: 100px;
     color: var(--tertiary-color);
     background-color: var(--secondary-color);
-
 }
+
+/* responsiveness! ooh, ahhh! I didn't like that I had to use the article wrapper but it was goint o be easier than refactoring my imag stlyes*/
 
 article:hover {
     opacity: 1;
-
 }
 
 article h3 {
     border-bottom: var(--quinary-color) 1px solid;
 }
 
-
-
+/* Contact section styles - Hastily slapped together,lol */
 #contact address {
     margin: 1vw ;
     color: var(--primary-color);
@@ -266,15 +270,12 @@ article h3 {
     .hero h2 {
         top: 50px;
         border: none;
-
     }
 
     .profile-pic {
         position: static;
         width: 230px;
-
         z-index: 0;
-
     }
 
     main {
@@ -288,10 +289,7 @@ article h3 {
 
     article {
         flex: 0 1 100%;
-
         margin: 1.5vw;
-
-
     }
 }
 
