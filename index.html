@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Portfolio - Eliot Cleveland</title>
-  </head>
 
-  <body>
-    <!-- Header and Nav start -->
-    <header>
-      <h1><a href="#">Eliot Cleveland</a></h1>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Portfolio - Eliot Cleveland</title>
+</head>
 
-    <!-- Hero Section -->
-    <div class="hero">
-      <h2>The Future is Now</h2>
-      <div>
-        <a href="#contact"
-          ><img
-            class="profile-pic"
-            style="object-fit: cover; height: auto"
-            src="./assets/images/profileimage.jpg"
-            alt="A black & white profile photo of Eliot smiling"
-        /></a>
-      </div>
+<body>
+  <!-- Header and Nav -->
+  <header>
+    <h1><a href="#">Eliot Cleveland</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- I hated try to make the profile pick dance around. Will need to re-work at a later date. Colors were ugh!!! Not cray about the headline either -->
+  <div class="hero">
+    <h2>The Future is Now!</h2>
+    <div>
+      <a href="#contact"><img class="profile-pic" style="object-fit: cover; height: auto"
+          src="./assets/images/profileimage.jpg" alt="A black & white profile photo of Eliot smiling" /></a>
     </div>
-    <main>
-      <!-- About me section -->
-      <section id="about-me">
-        <h2>About Me</h2>
-        <p>
-          <strong>Eliot Cleveland</strong>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-      </section>
+  </div>
+  <main>
+    <!-- About me section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        <strong>I </strong>am an aspiring developer with a business background in retail services. I have also completed
+        a Data Analytics boot Camp just under a year ago and have an MBA. I am looking to apply my skils and pivot into
+        a more technical role. <br><br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only
+        five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with
+        the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum. <br><br>
+        Thanks for stopping by!
+      </p>
+    </section>
 
       <!-- Work section -->
       <section id="work">
@@ -113,42 +113,80 @@
             </article>
           </div>
         </div>
-      </section>
+        <div class="row">
+          <article>
+            <a href="https://eclevela-1234.github.io/leaflet-challenge/">
+              <img src="./assets/images/leaflet-preview.png" alt="" />
+              <div class="caption">
+                <h3>Leaflet-quakes</h3>
+                <p>Java/Leaflet</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a href="https://eclevela-1234.github.io/Plot.ly_Challenge/">
+              <img src="./assets/images/plotly-preview.png" alt="" />
+              <div class="caption">
+                <h3>Belly Buttons</h3>
+                <p>Java/Plotly</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="row">
+          <article>
+            <a href="https://eclevela-1234.github.io/run-buddy/">
+              <img src="./assets/images/run-bud-preview.png" alt="" />
+              <div class="caption">
+                <h3>Run Buddy</h3>
+                <p>HTML/CSS</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a href="https://eclevela-1234.github.io/Final-Project/">
+              <img src="./assets/images/data-analytics-preview.png" alt="" />
+              <div class="caption">
+                <h3>Business Dashboard</h3>
+                <p>Java/HTML/Plotly/Python</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <!-- Contact Section -->
-      <section id="contact">
-        <h2>Contact</h2>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- Added a div for contact choices -->
+      <div class="contact-contact">
+        <a href="mailto:eliothead@live.com">
+          <address>
 
-       
-
-        <div class="contact-contact">
-          <a href="mailto:eliothead@live.com"><address>
-              
             <h3>Eliot Cleveland</h3>
             4928 Green Run Drive <br />
             Richmond, VA 23228 <br /><br />
             Phone: 1 + (804) 986-8943<br />
             Email: eliothead@live.com
-          </address></a>
+          </address>
+        </a>
 
-          <div class="social">
-            <a href="https://www.linkedin.com/in/eliotcleveland/"
-              ><img src="./assets/images/LinkedIn_logo_initials.png" alt="LinkedIn Icon"
-            /></a>
-          </div>
-          <div class="social">
-            <a href="https://github.com/eclevela-1234"
-              ><img
-                src="./assets/images/GitHub-Mark-120px-plus.png"
-                alt="Github Icon"
-            /></a>
-          </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/eliotcleveland/"><img src="./assets/images/LinkedIn_logo_initials.png"
+              alt="LinkedIn Icon" /></a>
         </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer>
-      <h2>&copy; Eliot Cleveland - 2022</h2>
-    </footer>
-  </body>
+        <div class="social">
+          <a href="https://github.com/eclevela-1234"><img src="./assets/images/GitHub-Mark-120px-plus.png"
+              alt="Github Icon" /></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <h2>&copy; Eliot Cleveland - 2022</h2>
+  </footer>
+</body>
+
 </html>
