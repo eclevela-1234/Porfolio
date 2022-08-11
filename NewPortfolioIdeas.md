@@ -11,3 +11,10 @@
 - Re-think images
 - Fonts
 - Icons
+- Mobile first design
+
+**Functionality**
+- well crafted toolbars
+- animations
+- music (toggle)
+- contact form
